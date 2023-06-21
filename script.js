@@ -3,8 +3,7 @@ async function displayForm() {
     const data = await res.json();
 
     if (data.exists)
-    {   
-        const resp = 
+    {  
         document.getElementById('login').innerHTML = '<h1>Username exists</h1>';
     }
     else
