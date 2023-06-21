@@ -1,7 +1,7 @@
 async function displayForm() {
     const res = await fetch('http://localhost:3000/access');
     const data = await res.json();
-
+    console.log(data);
     if (data.exists)
     {  
         document.getElementById('login').innerHTML = '<h1>Username exists</h1>';
