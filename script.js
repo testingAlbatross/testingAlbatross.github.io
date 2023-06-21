@@ -13,4 +13,4 @@ async function displayForm() {
     }
 }
 
-displayForm();
+window.addEventListener('load', displayForm);
