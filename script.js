@@ -12,3 +12,5 @@ async function displayForm() {
         document.getElementById('login').innerHTML = '<h1>Login with github</h1>';
     }
 }
+
+displayForm();
